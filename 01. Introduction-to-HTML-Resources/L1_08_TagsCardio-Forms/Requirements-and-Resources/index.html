@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Customer Details</legend>
+        <p>
+          <label for="first_name">First Name</label>
+          <input
+            type="text"
+            name="first_name"
+            id="first_name"
+            placeholder="George"
+            autofocus
+          />
+        </p>
+        <p>
+          <label for="last_name">Last Name</label>
+          <input
+            type="text"
+            name="last_name"
+            id="last_name"
+            placeholder="Devis"
+          />
+        </p>
+        <p>
+          <label for="male">Male</label>
+          <input type="radio" name="sex" value="male" id="male" />
+          <label for="female">Female</label>
+          <input type="radio" name="sex" value="female" id="female" />
+          <label for="other">Other</label>
+          <input type="radio" name="sex" value="other" id="other" />
+        </p>
+
+        <p>
+          Preferred contact method:
+          <label for="email_checkbox">Email</label>
+          <input type="radio" name="contact" id="email_checkbox" />
+          <label for="phone_checkbox">Phone</label>
+          <input type="radio" name="contact" id="phone_checkbox" />
+        </p>
+
+        <p>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="your@email.com"
+          />
+        </p>
+
+        <p>
+          <label for="phone">Phone</label>
+          <input
+            type="number"
+            name="phone"
+            id="phone"
+            placeholder="+359885236225"
+          />
+        </p>
+
+        <p>
+          <label for="town">Town</label>
+          <select name="Town" id="town">
+            <option value="varna">Varna</option>
+            <option value="plovdiv">Plovdiv</option>
+            <option value="burgas">Burgas</option>
+            <option value="sofia">Sofia</option>
+            <option value="pleven">Pleven</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="age">Age</label>
+          <input type="number" name="age" id="age" min="18" max="70" />
+        </p>
+
+        <p>
+          <label for="languages">Programming language</label>
+          <input list="programming_languages" name="languages" id="languages" />
+          <datalist id="programming_languages">
+            <option value="Java"> </option>
+            <option value="C#"> </option>
+            <option value="JavaScript"> </option>
+            <option value="Python"> </option>
+            <option value="Ruby"> </option>
+            <option value="Other"> </option>
+          </datalist>
+        </p>
+
+        <p>
+          <label for="more_information"></label>
+          <textarea
+            name="more_information"
+            id="more_information"
+            cols="20"
+            rows="5"
+            placeholder="More information..."
+          ></textarea>
+        </p>
+
+        <p>
+          <input type="checkbox" name="terms" id="terms" value="checked" />
+          <label for="terms">I agree the Terms and Conditions</label>
+        </p>
+        <p>
+          <input type="submit" name="submit" id="submit" value="Send" />
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>
