@@ -1,5 +1,19 @@
-@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-
-#button:hover {
+.button {
+  border: 2px solid black;
+  background-color: rgb(251, 251, 251);
   cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 2em;
+  padding: 1em 1.5em;
+}
+.button.fill{
+
+  background-color: rgb(51, 51, 51);
+  color: rgb(251, 251, 251)
+}
+.button.fill:hover {
+  background-color: rgb(0, 102, 0);
+  border-color: rgb(0, 102, 0);
+  
 }
