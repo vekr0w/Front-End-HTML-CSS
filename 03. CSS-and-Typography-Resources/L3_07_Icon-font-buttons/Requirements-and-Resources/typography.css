@@ -1,0 +1,23 @@
+@import url("../../fontawesome-free-5.11.2-web\css\all.css");
+
+html{
+  font-size: 18px;
+  margin: 1em;
+  padding: 1em;
+}
+.fas{
+  text-decoration: none;
+  margin: 0.5em;
+  padding: 1em;
+  font-size: 1em;
+  color: white;
+  border-radius: 0.25em;
+}
+.fa-star{
+  border: 2em, black,solid;
+  background: rgb(0, 128, 0);
+  
+}
+.fa-envelope{
+background: rgb(255, 140, 0);
+}
