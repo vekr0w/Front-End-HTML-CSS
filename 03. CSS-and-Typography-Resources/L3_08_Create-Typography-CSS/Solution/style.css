@@ -34,10 +34,40 @@ h6 {
   font-size: 1em;
 }
 
-tr {
-  border: 1px ridge black;
+table {
+  width: 100%;
 }
 
+td,
 th {
-  background: gray;
+  border-width: 1px;
+  border-color: rgb(221, 221, 221);
+  border-style: solid;
+  text-align: left;
+}
+.table-head {
+  background: rgb(179, 178, 178);
+}
+
+.odd-row {
+  background-color: rgb(241, 241, 241);
+}
+
+.odd-row td {
+  background-color: rgb(241, 241, 241);
+}
+
+blockquote {
+  font-weight: bold;
+  font-style: italic;
+  border-left: 0.25em solid rgb(221,221,221);
+  padding: 1em;
+}
+
+.blockquote-header{
+  padding-left: 2em;
+}
+
+.blockquote-footer{
+  text-align: right;
 }
