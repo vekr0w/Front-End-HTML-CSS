@@ -1,0 +1,18 @@
+html {
+  font: 16px;
+  line-height: 1.2;
+  font-family: Helvetica, sans-serif;
+}
+
+h1,
+h2 {
+  font-size: 1em;
+  line-height: 1.2;
+  font-family: Georgia, serif;
+}
+.site-nav,
+ul,
+li,
+a {
+  display: inline-block;
+}
