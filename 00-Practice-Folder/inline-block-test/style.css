@@ -1,0 +1,36 @@
+@import url("reset.css");
+
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10em;
+}
+
+.site {
+  width: 100%;
+  padding: 2em;
+}
+.site-ul {
+  padding: 1em;
+  width: 60% auto;
+  height: auto;
+  list-style-type: none;
+}
+.site-li {
+  padding: 3px;
+  display: inline-block;
+  width: 49%;
+  height: 0 auto;
+  border: 3px solid green;
+}
+.site-li img {
+  border: 3px solid black;
+  width: 100%;
+  height: auto;
+  padding: 3px;
+}
