@@ -1,0 +1,66 @@
+.site {
+  max-width: 60em;
+  margin: 0 auto;
+}
+.site-header {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.site-main {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.section-level-1 {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.section-level-2 {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.section-level-3 {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.site-title {
+  display: inline-block;
+  border-bottom: 1px solid black;
+  width: 100%;
+}
+
+.section-level-2-paragraph {
+  display: inline-block;
+  width: 47%;
+}
+
+.section-level-2-quote {
+  display: inline-block;
+  float: right;
+  width: 47%;
+  padding: 0 2.5em;
+  border-left: 2px rgb(221, 221, 221) solid;
+}
+
+.quote-author {
+  text-align: right;
+}
+
+.image-level-1 {
+  float: right;
+  border: 2px solid black;
+  padding: 0.5em;
+  margin: 0.5em;
+  width: 0 auto;
+}
+
+.image-level-2 {
+  float: left;
+  border: 2px solid black;
+  padding: 0.5em;
+  margin: 0.5em;
+  width: 0 auto;
+}
