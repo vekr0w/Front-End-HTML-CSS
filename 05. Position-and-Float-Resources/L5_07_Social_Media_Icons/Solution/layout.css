@@ -1,0 +1,42 @@
+.buttons {
+  max-width: 60em;
+  margin: 0 auto;
+}
+.buttons-ul {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2em;
+  list-style-type: none;
+}
+
+a {
+  color: black;
+  padding: 10px;
+  background: #ededed;
+  border-radius: 50%;
+}
+
+.facebook-li:hover a {
+  color: #3b5998;
+}
+.twitter-li:hover a {
+  color: #1da1f2;
+}
+.google-li:hover a {
+  color: #db4437;
+}
+.linkedin-li:hover a {
+  color: #2867b2;
+}
+.instagram-li:hover a {
+  color: #405de6;
+}
+
+.buttons-ul li {
+  display: inline-block;
+  margin: 1em;
+  list-style-type: none;
+}
+.buttons-ul li a {
+  text-decoration: none;
+}
