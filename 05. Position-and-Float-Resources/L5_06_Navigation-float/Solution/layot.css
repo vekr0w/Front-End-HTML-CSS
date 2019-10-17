@@ -5,6 +5,13 @@
 .site-header {
   max-width: 100%;
   margin: 0 auto;
+  border-bottom: 2px solid black;
+}
+
+.site-menu {
+  display: inline-block;
+  width: 39%;
+  margin: 0 auto;
 }
 .site-main {
   display: inline-block;
@@ -30,8 +37,7 @@
 
 .site-title {
   display: inline-block;
-  border-bottom: 2px solid black;
-  width: 100%;
+  width: 60%;
 }
 
 .section-level-2-paragraph {
@@ -79,24 +85,20 @@
   float: right;
 }
 
-.navigation-level-1 {
-  
+.menu-ul {
+  list-style-type: none;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
-.navigation-level-2 {
-
+.menu-li {
+  display: inline-block;
+  width: 20%;
 }
 
-.navigation ul {
-
+.menu-a {
+  text-decoration: none;
 }
-
-.navigation-level-1 ul {
-}
-
-.navigation-level-2 ul {
-}
-
 .navigation ul li a {
   text-decoration: none;
 }
