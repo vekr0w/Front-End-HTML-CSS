@@ -1,0 +1,25 @@
+body {
+  max-width: 60em;
+  margin: 0 auto;
+}
+
+.site {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.image-level-1 {
+  max-width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+.image-level-2 {
+  max-width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+.site section {
+  padding-bottom: 2em;
+}
