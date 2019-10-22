@@ -1,0 +1,11 @@
+.site {
+  margin: 10em;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex: 1 1 auto;
+  justify-content: space-between;
+  max-width: 70vw;
+}
+.site-article{
+  margin: 1em;
+}
