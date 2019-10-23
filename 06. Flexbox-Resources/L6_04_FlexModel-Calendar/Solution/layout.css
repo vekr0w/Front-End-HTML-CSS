@@ -1,0 +1,37 @@
+span {
+  border: 1px solid black;
+}
+
+section {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.container {
+  display: flex;
+  align-items: flex-start;
+  max-width: 65vw;
+  height: 500px;
+  margin: 3em auto;
+}
+.week {
+  flex-direction: row;
+  flex: 1 1 80%;
+}
+.notes {
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+.description {
+  flex: 1 1 100%;
+}
+.weekday {
+  flex: 1 1 auto;
+}
+.weekend {
+  flex: 1 1 auto;
+}
+.notes-element {
+  flex: 1 1 auto;
+}
