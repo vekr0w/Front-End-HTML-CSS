@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  max-width: 15vw;
+  height: 35rem;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: end;
+}
+
+.element {
+  border: 1px solid black;
+  width: 50%;
+  height: 11%;
+  margin: 2px;
+  padding: 1.5em;
+}
+
+.site-span-1 {
+}
+.site-span-2 {
+}
+.site-span-3 {
+}
+.site-span-4 {
+}
+.site-span-5 {
+}
+.site-span-6 {
+}
+.site-span-7 {
+}
+.site-span-8 {
+}
+.site-span-9 {
+}
+.site-span-10 {
+}
+.site-span-11 {
+  order: 0;
+}
+.site-span-12 {
+  order: 3;
+}
