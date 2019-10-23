@@ -1,0 +1,31 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+p,
+li,
+ul,
+a {
+  padding-bottom: 1em;
+}
+
+ul,li,a{
+  text-decoration: none;
+  list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6{
+  padding-bottom: 1em;
+  font-weight: normal;
+}
+
+.site-title{
+  font-weight: bold;
+  font-size: 3.0em;
+}
+
+.menu-a{
+  font-weight: bold;
+  color:rgb(86, 160, 97) ;
+}
