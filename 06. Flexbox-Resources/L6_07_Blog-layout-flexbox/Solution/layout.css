@@ -1,0 +1,23 @@
+.blog {
+  margin: 7em;
+  padding: 1em;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.blog-title {
+  font-weight: bold;
+  border-bottom: 3px solid black;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+
+.blog-main {
+
+
+}
+
+.blog-aside {
+
+}

@@ -1,0 +1,25 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+body {
+  background-color: rgb(238, 238, 238);
+}
+
+p,
+img {
+  padding-bottom: 1.5em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote {
+  padding-bottom: 1em;
+  font-family: Georgia, serif;
+}
