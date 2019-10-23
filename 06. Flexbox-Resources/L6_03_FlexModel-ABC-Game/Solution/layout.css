@@ -23,22 +23,32 @@
   order: 1;
 }
 .site-span-m {
+  order: 2;
 }
 .site-span-a {
+  order: 3;
 }
 .site-span-n {
+  order: 4;
 }
 .site-span-t {
+  order: 5;
 }
 .site-span-i {
+  order: 6;
 }
 .site-span-c {
+  order: 7;
 }
 .site-span-H {
+  order: 8;
 }
 .site-span-T {
+  order: 9;
 }
 .site-span-M {
+  order: 10;
 }
 .site-span-L {
+  order: 11;
 }
