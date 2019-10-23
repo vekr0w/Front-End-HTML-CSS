@@ -1,0 +1,29 @@
+body {
+  margin: 10em;
+  background-color: rgb(238, 238, 238);
+}
+
+body,
+ul,
+li {
+  display: flex;
+}
+
+ul {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+li {
+  list-style: none;
+  justify-content: center;
+  flex: 0 0 29%;
+  padding: 1em;
+  margin-bottom: 2em;
+  border: 5px solid black;
+  box-shadow: 5px 5px 6px rgba(0,0,0,0.3),
+                inset 5px 5px 6px rgba(0,0,0,0.3);
+}
+img{
+  align-self: center;
+}
