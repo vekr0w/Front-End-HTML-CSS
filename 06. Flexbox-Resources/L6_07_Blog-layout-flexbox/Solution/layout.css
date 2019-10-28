@@ -12,12 +12,42 @@
   margin-bottom: 1em;
 }
 
+.blog-test {
+  display: flex;
+  flex-flow: row wrap;
+}
 
 .blog-main {
-
-
+  display: flex;
+  flex-flow: column wrap;
+  flex: 1 1 70%;
 }
 
 .blog-aside {
+  display: flex;
+  flex-flow: column wrap;
+  flex: 1 1 30%;
+  align-content: center;
+}
 
+.level-1-image {
+  /* box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.3),
+    inset 5px 5px 6px rgba(0, 0, 0, 0.3); */
+    flex: 0 0 100%;
+}
+
+.main-comment.level-1 {
+  background-color: rosybrown;
+  display: flex;
+}
+.container-second {
+  margin: 1.5em;
+  display: flex;
+}
+
+.main-comment.level-2 {
+  background-color: seagreen;
+}
+.main-comment.level-3 {
+  background-color: steelblue;
 }
