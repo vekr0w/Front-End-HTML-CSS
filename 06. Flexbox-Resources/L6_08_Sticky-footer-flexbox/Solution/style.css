@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+body {
+  background-color: rgb(238, 238, 238);
+  height: 100vh;
+  margin: 3em;
+}
+
+.site {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.site-header {
+  border-bottom: 3px solid black;
+  padding: 1.5em;
+  margin-bottom: 1em;
+}
+
+.site-footer {
+  padding: 1.5em;
+  margin-top: 1em;
+  background-color: rgb(102, 102, 102);
+  color: rgb(255, 255, 255);
+}
