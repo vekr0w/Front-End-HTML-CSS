@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://use.fontawesome.com/75ccd1cdee.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="window-container">
+      <div class="main-menu">
+        <header class="create-user">
+          <h2>Create User</h2>
+          <a href="#"><i class="fa fa-times cross-icon"></i></a>
+          <p class="main-text">
+            You are about to create an user with access to BSP link
+          </p>
+        </header>
+
+        <div class="user-template">
+          <h4>User Template</h4>
+          <div class="label-options-container">
+            <label for="template" class="option-lable">Template</label>
+            <select
+              name="template"
+              id="template-select"
+              class="template-select"
+            >
+              <option value="enhanced">Enhanced</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="contact-details">
+          <h4>Contact Details</h4>
+          <div class="label-options-container">
+            <label for="portal-access-email" class="option-lable"
+              >Portal Access Email</label
+            >
+            <input
+              type="text"
+              name="portal-access-email"
+              id="portal-access-email"
+              class="template-select"
+              placeholder="Enter Email"
+            />
+          </div>
+          <div class="label-options-container">
+            <label for="name" class="option-lable">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="template-select"
+              placeholder="Enter Name"
+            />
+          </div>
+          <div class="label-options-container">
+            <label for="organization" class="option-lable">Organization</label>
+            <input
+              type="text"
+              name="organization"
+              id="organization"
+              class="template-select"
+              placeholder="Enter Organization"
+            />
+          </div>
+          <div class="label-options-container">
+            <label for="telephone" class="option-lable">Telephone</label>
+            <input
+              type="text"
+              name="telephone"
+              id="telephone"
+              class="template-select"
+              placeholder="Enter Telephone"
+            />
+          </div>
+        </div>
+
+        <div class="address-details">
+          <h4>Address Details</h4>
+          <div class="label-options-container">
+            <label for="country" class="option-lable">Country</label>
+            <input
+              type="text"
+              name="country"
+              id="country"
+              class="template-select"
+              placeholder="Enter Country"
+            />
+          </div>
+          <div class="label-options-container">
+            <label for="city" class="option-lable">City</label>
+            <input
+              type="text"
+              name="city"
+              id="city"
+              class="template-select"
+              placeholder="Enter City"
+            />
+          </div>
+          <div class="label-options-container">
+            <label for="address" class="option-lable">Address</label>
+            <input
+              type="text"
+              name="address"
+              id="address"
+              class="template-select"
+              placeholder="Enter Address"
+            />
+          </div>
+          <div class="label-options-container">
+            <label for="postcode" class="option-lable">Postcode</label>
+            <input
+              type="text"
+              name="postcode"
+              id="postcode"
+              class="template-select postcode-input"
+              placeholder="Enter Postcode"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="cancel-create-menu">
+        <button class="create">CREATE</button>
+        <button class="cancel">CANCEL</button>
+      </div>
+    </div>
+  </body>
+</html>

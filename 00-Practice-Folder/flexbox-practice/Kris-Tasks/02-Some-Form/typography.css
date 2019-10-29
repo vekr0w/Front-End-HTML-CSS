@@ -1,0 +1,50 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+h2,
+h3,
+h4,
+h5 {
+  color: #0f154d;
+}
+
+h2,
+h3 {
+  margin-bottom: 1.5rem;
+}
+
+h4,
+h5 {
+  margin-bottom: 1rem;
+}
+
+.user-template,
+.contact-details,
+.address-details {
+  padding: 1.5rem 0;
+}
+
+.main-text {
+  color: #5b5c66;
+}
+
+.cross-icon {
+  color: #747580;
+}
+
+.option-lable {
+  color: #747580;
+}
+
+.main-menu > div + div {
+  border-top: 1px solid #e4e5eb;
+}
+
+.contact-details > div + div {
+  margin: 1rem 0;
+}
+.address-details > div + div {
+  margin: 1rem 0;
+}

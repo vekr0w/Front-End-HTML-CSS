@@ -1,0 +1,67 @@
+body {
+  display: flex;
+  max-width: 60em;
+  margin: 0 auto;
+}
+
+.window-container {
+  flex: 0 0 50%;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.75);
+}
+.main-menu {
+  padding: 3rem 2rem 0 2rem;
+}
+
+.create-user {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+
+.label-options-container {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.template-select {
+  padding: 5px;
+}
+
+.postcode-input {
+  width: 30%;
+}
+
+.cancel-create-menu {
+  background-color: #e4e5eb;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  align-items: flex-end;
+  padding: 1.5rem 2rem;
+  border-radius: 0 0 5px 5px;
+  border: none;
+  box-shadow: inset 0px 5px 5px 0px rgba(0, 0, 0, 0.16);
+}
+.cancel,
+.create {
+  width: 95px;
+  height: 36px;
+  margin-right: 1.5rem;
+  border-radius: 4px;
+}
+
+.cancel {
+  background-color: white;
+  border: 1px solid #1e32fa;
+  font-weight: bold;
+  color: #1e32fa;
+}
+.create {
+  background-color: #0f154d;
+  border: 1px solid #0f154d;
+  color: #ffffff;
+}
