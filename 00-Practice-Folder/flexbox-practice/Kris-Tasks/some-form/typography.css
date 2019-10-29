@@ -1,0 +1,18 @@
+html {
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+body {
+  background-color: rgb(247, 247, 250);
+}
+
+.general-table {
+  text-align: center;
+}
+
+tr {
+  border-bottom: 1px solid black;
+  margin-bottom: 0.5em;
+}
