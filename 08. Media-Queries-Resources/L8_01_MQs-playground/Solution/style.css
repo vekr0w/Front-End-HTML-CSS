@@ -1,0 +1,19 @@
+after {
+  color: green;
+}
+
+@media screen and (max-width: 1000px) {
+  .mq-width {
+    color: red;
+  }
+}
+@media screen and (max-height: 400px) {
+  .mq-height {
+    color: red;
+  }
+}
+@media (aspect-ratio: 8/5) {
+  .mr-ar {
+    color: red;
+  }
+}
