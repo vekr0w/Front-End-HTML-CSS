@@ -12,7 +12,7 @@ after {
     color: red;
   }
 }
-@media (aspect-ratio: 8/5) {
+@media (aspect-ratio: 16/9) {
   .mr-ar {
     color: red;
   }

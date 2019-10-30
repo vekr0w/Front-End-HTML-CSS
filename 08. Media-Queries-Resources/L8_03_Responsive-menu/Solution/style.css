@@ -57,33 +57,38 @@ h1 {
   color: white;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .site-title {
     align-self: flex-start;
   }
 }
 
-/* @media (min-width: 1025px) and (max-width: 1280px) {
+/* @media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .main-menu {
+    flex: 0 0 100%;
+    background-color: red;
+  }
 } */
 
-@media (min-width: 1025px) {
-
-  body{
-    margin: 1rem;
+@media screen and (min-width: 1025px) {
+  body {
+    margin: 2rem;
   }
 
   .menu-wrapper {
     display: flex;
     flex-flow: row wrap;
     border-bottom: 2px solid black;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 1rem;
   }
   .site-header {
-    flex: 0 0 60%;
+    flex: 0 0 auto;
   }
 
   .site-title {
-    align-self: flex-start;
-    padding: 1rem;
+    padding: 0;
   }
 
   .x-menu {
@@ -91,18 +96,17 @@ h1 {
   }
 
   .main-menu {
-    flex: 0 0 40%;
+    flex: 0 0 auto;
     display: flex;
     flex-flow: row wrap;
     border: none;
     border-radius: 5px;
-    margin: 0;
-    padding: 0;
     justify-content: space-evenly;
+    height: 50%;
   }
 
   .menu-button {
     align-self: center;
-    justify-self: stretch;
+    margin: 5px;
   }
 }
