@@ -1,0 +1,84 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap");
+
+html {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #484646;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+body {
+  background-color: #ebf0f0;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-wrapper {
+  margin: 4rem;
+  display: flex;
+  flex-flow: column wrap;
+  align-self: center;
+  width: 25%;
+}
+
+.form-header {
+  align-self: center;
+}
+
+.form-input {
+  border-top: 3px solid #007acc;
+  padding-top: 2rem;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  position: relative;
+}
+
+.mandatory-field {
+  position: absolute;
+  top: 0;
+  left: -8px;
+  color: red;
+}
+.label {
+  color: #a99ba2;
+  margin-bottom: 0.2rem;
+}
+
+.input-field {
+  border: none;
+  width: 80%;
+}
+
+.input-field-container {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #cae1ea;
+  padding-top: 0.2rem;
+  margin-bottom: 1rem;
+}
+
+.input-icon {
+  margin: 0 0.4rem;
+}
+
+.password-requirement {
+  font-size: 12px;
+  color: #c5d3d9;
+}
+
+.form-button {
+  display: flex;
+}
+.sign-up {
+  flex: 0 0 100%;
+  background-color: #007acc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 0.5rem 0;
+}

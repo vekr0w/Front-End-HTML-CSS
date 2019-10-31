@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://use.fontawesome.com/75ccd1cdee.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="form-wrapper">
+      <div class="form-header">
+        <h1 class="form-title">Form</h1>
+      </div>
+      <div class="form-input">
+        <div class="name-input input-wrapper">
+          <div class="mandatory-field">*</div>
+          <label for="name" class="name-lable label">Name:</label>
+          <div class="input-field-container">
+            <i class="fa fa-user input-icon"></i>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="input-field"
+              placeholder="| Dario Petrov"
+            />
+          </div>
+        </div>
+        <div class="email-input input-wrapper">
+          <div class="mandatory-field">*</div>
+          <label for="email" class="email-lable label">Email:</label>
+          <div class="input-field-container">
+            <i class="fa fa-envelope input-icon"></i>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              class="input-field"
+              placeholder="| dario@email.com"
+            />
+          </div>
+        </div>
+        <div class="phone-input input-wrapper">
+          <div class="mandatory-field">*</div>
+          <label for="phone" class="phone-lable label">Phone number:</label>
+          <div class="input-field-container">
+            <i class="fa fa-mobile input-icon"></i>
+            <input
+              type="text"
+              name="phone"
+              id="phone"
+              class="input-field"
+              placeholder="| +359 885 445 445"
+            />
+          </div>
+        </div>
+        <div class="password-input input-wrapper">
+          <div class="mandatory-field">*</div>
+          <label for="password" class="password-lable label">Password:
+            <span class="password-requirement">(mininum 6 characters)</span>
+          </label>
+          <div class="input-field-container">
+            <i class="fa fa-lock input-icon"></i>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              class="input-field"
+              placeholder="| ********"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="form-button">
+        <button class="sign-up">Sign up</button>
+      </div>
+    </div>
+  </body>
+</html>
