@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans&display=swap");
+
+html {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 34px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.site-header {
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.header-menu {
+  font-size: 20px;
+}
+.fa-shopping-cart {
+  font-size: 26px;
+}
+
+.fa-arrow-circle-right {
+  font-size: 26px;
+}
+
+.header-text {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.buy-now {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.fa-check-circle {
+  font-size: 20px;
+  color: #00d08e;
+}
+
+.description {
+  font-size: 20px;
+}
+
+.hustlecase-perfect {
+  text-align: center;
+}
+
+.purpouse-list > li > p {
+  color: #00d08e;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 20px;
+}
+
+.site-footer > h2 {
+  text-align: center;
+}
+
+.footer-info {
+  text-align: center;
+}
+
+.footer-last-par {
+  text-align: center;
+}
+
+.last-par-span {
+  font-weight: bolder;
+}
