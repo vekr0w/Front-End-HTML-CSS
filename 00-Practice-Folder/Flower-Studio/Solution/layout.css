@@ -1,0 +1,52 @@
+body {
+}
+
+.site-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.site-header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 2rem;
+}
+
+.left-ul,
+.right-ul {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.left-ul > li {
+  margin-right: 2rem;
+}
+.right-ul > li {
+  padding: 0 1rem;
+  border-right: 0.2px solid #dedede;
+}
+.main-picture {
+  background-image: url("../img/residential-banner-2.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.main-picture-container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+.title-2 {
+  padding-bottom: 2rem;
+}
+
+.main-picture-container > p:last-child {
+  padding-top: 2rem;
+}
+
+.fa-horizontal-rule{
+  color: black;
+}

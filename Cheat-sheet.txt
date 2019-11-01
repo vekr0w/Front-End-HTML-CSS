@@ -1,0 +1,2 @@
+Import Font awesome in HTML:
+<script src="https://use.fontawesome.com/8e8edc751e.js"></script>

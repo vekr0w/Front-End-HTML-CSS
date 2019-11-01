@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans&display=swap");
+
+html {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #5a5a5a;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 50px;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+
+.site-header {
+  background-color: #fafafa;
+}
+
+.shop-red {
+  color: red;
+}
+
+.left-ul {
+  font-weight: 550;
+}
+
+.right-ul {
+  font-size: 14px;
+  font-weight: 550;
+}
+
+.main-picture {
+  text-align: center;
+  color: white;
+  line-height: 1;
+}
+
+.main-picture-par {
+  font-size: 24px;
+}
