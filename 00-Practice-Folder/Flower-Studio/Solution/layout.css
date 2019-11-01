@@ -47,6 +47,115 @@ body {
   padding-top: 2rem;
 }
 
-.fa-horizontal-rule{
+.fa-horizontal-rule {
   color: black;
+}
+
+.main-content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.container-number {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.container-number::before,
+.container-number::after {
+  display: block;
+  background-color: gray;
+  height: 2px;
+  width: 30px;
+  content: "";
+  margin: 0.5rem;
+}
+.main-content-title {
+  flex: 0 0 100%;
+  margin: 2rem 0;
+}
+
+.content-container {
+  flex: 0 0 15%;
+  margin-bottom: 3rem;
+}
+.content-container + .content-container {
+  margin-left: 2rem;
+}
+
+.site-gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-container {
+  margin: 4rem;
+}
+.gallery-image + .gallery-image {
+  margin-left: 0.5rem;
+}
+
+.site-footer {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.footer-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border-bottom: 1px solid #5a5a5a;
+  padding-bottom: 2rem;
+}
+.list-container {
+  flex: 0 0 25%;
+}
+
+.footer-logo {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+.footer-logo-ul {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.footer-logo-ul > li + li {
+  margin-left: 5px;
+}
+
+.footer-email {
+  display: flex;
+  flex-flow: column wrap;
+  flex: 0 0 20%;
+}
+
+.email-input {
+  width: 70%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: none;
+}
+
+.subscribe-button {
+  width: fit-content;
+  padding: 0.5rem;
+
+  border: none;
+}
+.footer-terms{
+  flex: 0 0 100%;
+  text-align: center;
+  margin: 2rem 0 1rem 0;
 }

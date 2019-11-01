@@ -5,6 +5,7 @@ html {
   font-size: 16px;
   line-height: 1.5;
   color: #5a5a5a;
+  background-color: #fafafa;
 }
 
 ul {
@@ -15,10 +16,6 @@ h1 {
   font-size: 50px;
   letter-spacing: 2px;
   font-weight: normal;
-}
-
-.site-header {
-  background-color: #fafafa;
 }
 
 .shop-red {
@@ -42,4 +39,43 @@ h1 {
 
 .main-picture-par {
   font-size: 24px;
+}
+
+.main-content-title {
+  color: black;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.main-content {
+  background-color: white;
+}
+
+.site-gallery {
+  background-color: #ededed;
+}
+
+.content-container {
+  text-align: center;
+}
+
+.site-footer {
+  background-color: black;
+}
+
+.list-container {
+  text-align: center;
+}
+
+.fa-circle {
+  color: white;
+  font-size: 12px;
+}
+
+.subscribe-par {
+  text-align: center;
+}
+.subscribe-button {
+  background-color: #fa5b3c;
+  color: white;
 }
