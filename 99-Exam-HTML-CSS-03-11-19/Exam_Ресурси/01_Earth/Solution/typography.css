@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.site-header {
+  background-color: #001216;
+}
+
+.title-wrapper > h1 {
+  color: #06eff0;
+}
+.title-wrapper > h3 {
+  color: white;
+}
+
+.main-par {
+  font-size: 18px;
+}
+
+.aside-title {
+  background-color: #001216;
+  color: white;
+}
+
+.aside-main {
+  background-color: #D9EBEB;
+  font-size: 18px;
+}

@@ -1,6 +1,9 @@
 FONT AWESOME IMPORT:
 <script src="https://use.fontawesome.com/8e8edc751e.js"></script>
 
+<script src="https://kit.fontawesome.com/597dde3a29.js" crossorigin="anonymous"></script>
+
+
 
 Google-fonts:
 

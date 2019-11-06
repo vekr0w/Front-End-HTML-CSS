@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap");
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f0e4e4;
+}
+
+.site-header {
+  background-color: #f93700;
+  color: white;
+}
+
+.search-bar-button {
+  background-color: #b6afaf;
+  color: white;
+}
+.header-user > button {
+  background-color: #f93700;
+  border: none;
+  color: white;
+}
+.site-gallery {
+  color: #808a97;
+  text-align: center;
+}
+
+.news-description > h1 {
+  color: #f93700;
+  letter-spacing: 3px;
+}
+.news-description > p {
+  color: #808a97;
+  margin: 1rem 0;
+}
+.news-description > button {
+  color: white;
+  background-color: #f93700;
+  border: none;
+  border-radius: 3px;
+  padding: 1rem;
+}
+
+.site-benefits {
+  background-color: #cac3c3;
+  text-align: center;
+}
+
+.benefits-details > h3 {
+  color: #484242;
+}
+.benefits-details > p {
+  color: #626064;
+}
+
+.benefits-details > img {
+  background-color: #e4d4d4;
+  border-radius: 100%;
+}
+
+.about-ul,
+.contacts-ul {
+  list-style-type: none;
+}
+
+.site-footer {
+  color: #8a8088;
+}
+
+.footer-li > button {
+  background-color: #cac3c3;
+}
+
+.footer-li > i {
+  font-size: 24px;
+  color: #808080;
+}
+
+.about,
+.contact {
+  color: #808084;
+  font-weight: bold;
+}

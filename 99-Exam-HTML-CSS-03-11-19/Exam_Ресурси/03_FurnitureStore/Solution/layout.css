@@ -1,0 +1,128 @@
+.site-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.site-header {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.header-nav {
+  margin-left: 4rem;
+  flex: 0 0 40%;
+}
+.header-search-bar {
+  flex: 0 0 40%;
+}
+
+.search-bar-input {
+  padding: 0.5rem 3rem;
+}
+.search-bar-button {
+  padding: 0.5rem 1.5rem;
+}
+.header-user {
+  flex: 0 0 20%;
+}
+
+.nav-ul {
+  display: flex;
+  flex-flow: row;
+  list-style: none;
+}
+.nav-ul > li + li {
+  margin-left: 1rem;
+}
+
+.site-main {
+  margin: 1rem 4rem;
+}
+
+.site-gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.gallery-image {
+  flex: 0 0 20%;
+}
+.gallery-image > img {
+  width: 100%;
+  height: auto;
+}
+
+.site-news {
+  margin-top: 1rem;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+}
+
+.news-description {
+  flex: 0 0 25%;
+}
+
+.news-image {
+  flex: 0 0 65%;
+}
+
+.news-image > img {
+  width: 100%;
+  height: auto;
+}
+
+.site-benefits {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+.benefits-details {
+  flex: 0 0 33%;
+}
+.benefits-details > img {
+  width: 30%;
+  height: auto;
+  padding: 1rem;
+}
+
+.site-footer {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding: 2rem 0.5rem;
+}
+
+.footer-about {
+  flex: 0 0 50%;
+}
+.footer-contacts {
+  flex: 0 0 50%;
+}
+.about-ul,
+.contacts-ul {
+  display: flex;
+  flex-flow: row;
+}
+
+.contacts-ul {
+  justify-content: flex-end;
+}
+
+.about-ul {
+  justify-content: flex-start;
+}
+
+.footer-li {
+  padding-left: 1rem;
+}
+
+.footer-li > button {
+  padding: 0.7rem 3rem;
+  border: none;
+  border-radius: 3px;
+}
