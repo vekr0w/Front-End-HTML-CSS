@@ -5,3 +5,11 @@ html {
   line-height: 1.5;
   color: white;
 }
+
+
+a{
+  color: white;
+  list-style-type: none;
+  text-decoration: none;
+}
+
