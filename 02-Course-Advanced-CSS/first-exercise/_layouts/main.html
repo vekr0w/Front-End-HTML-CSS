@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="site-wrapper">
+    <header class="site-header">
+      <h1> {{ site.title }}</h1>
+    </header>
+    <main class="site-main">
+      {% if page.title %}
+      <header>
+        <h3>{{page.title}}</h3>
+      </header>
+      {% endif %}
+      {{ content }}
+    </main>
+    <footer class="site-footer">
+      <p>Test paragraph from the website's footer, adding content from the config file here -> <a
+          href="/">{{site.facebook_username}}</a>
+      </p>
+    </footer>
+  </div>
+</body>
+
+</html>
