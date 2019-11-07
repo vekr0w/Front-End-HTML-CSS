@@ -1,0 +1,41 @@
+/* Adding colour to the background for the whole layout */
+html {
+  background-color: #1d1d1d;
+}
+/* Adding colour for the page content */
+
+.site-content{
+  background-color: #242424;
+}
+
+/* Setting the whole site to flex-column */
+
+.site-wrapper{
+  display: flex;
+  flex-flow: column wrap;
+}
+
+/* ------------------------------------------ */
+
+/* ------------------------------------------ */
+
+/* setting the footer to flex-row  and justify content*/
+
+.site-footer{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+/* sizing the footer containers so they fit in a row */
+
+.footer-container{
+  flex: 0 0 20%;
+}
+
+/* sizing the footer images so they fit */
+
+.footer-picture{
+  width: 100%;
+  height: auto;
+}
