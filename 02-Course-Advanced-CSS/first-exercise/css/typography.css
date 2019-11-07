@@ -6,10 +6,40 @@ html {
   color: white;
 }
 
-
-a{
+a {
   color: white;
-  list-style-type: none;
   text-decoration: none;
 }
 
+.site-header {
+  font-weight: bold;
+}
+
+.page-title {
+  font-size: 50px;
+}
+
+.site-navigation {
+  list-style-type: none;
+}
+.nav-button {
+  background-color: #b21c1a;
+  border-radius: 5px;
+}
+
+
+.site-content{
+  text-align: center;
+}
+
+.site-footer{
+  text-align: center;
+}
+
+.fa-facebook{
+  color: #4267B2;
+}
+
+.footer-container > ul{
+  list-style-type: none;
+}

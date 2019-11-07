@@ -8,34 +8,51 @@ html {
   background-color: #242424;
 }
 
-/* Setting the whole site to flex-column */
+/* Site-wrapper CSS */
 
 .site-wrapper{
   display: flex;
   flex-flow: column wrap;
+  margin: 2rem;
 }
 
-/* Setting header to flex-row and justify content */
+/* Site header CSS */
 
-/* ------------------------------------------ */
+.site-header{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 2rem;
+}
+.site-navigation{
+  display: flex;
+  flex-flow: row wrap;
+  padding: 2rem;
+}
 
-/* setting the footer to flex-row  and justify content*/
+.nav-button{
+  margin-left: 1rem;
+  padding: 1rem;
+
+}
+
+/* page-content */
+.site-content{
+  padding: 2rem;
+}
+
+/* footer CSS*/
 
 .site-footer{
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  padding: 2rem;
 }
-
-/* sizing the footer containers so they fit in a row */
 
 .footer-container{
-  flex: 0 0 20%;
+  flex: 0 0 50%;
 }
 
-/* sizing the footer images so they fit */
+/* ----------- */
 
-.footer-picture{
-  width: 100%;
-  height: auto;
-}

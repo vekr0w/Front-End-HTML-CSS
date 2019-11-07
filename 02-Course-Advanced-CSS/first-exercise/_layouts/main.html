@@ -1,63 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script
+      src="https://kit.fontawesome.com/597dde3a29.js"
+      crossorigin="anonymous"
+    ></script>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="../css/main.css">
-  <title>{{ site.title }}</title>
-</head>
+    <link rel="stylesheet" href="../css/main.css" />
+    <title>{{ site.title }}</title>
+  </head>
 
-<body>
-
-  <div class="site-wrapper">
-    <div class="site-header">
-      <h1 class="page-title">{{ page.title }}</h1>
-      <ul class="site-navigation">
-        <li><a href="/">Home</a></li>
-        <li><a href="/page-one">PageOne</a></li>
-        <li><a href="/page-two">PageTwo</a></li>
-        <li><a href="/about">About</a></li>
-      </ul>
-    </div>
-    <div class="site-content">
-
-      {{content}}
-      
-    </div>
-    <div class="site-footer">
-      <div class="footer-container first-image">
-        <img src="../images/test-portrait-image.jpg" alt="picture of a person" class="footer-picture">
+  <body>
+    <div class="site-wrapper">
+      <div class="site-header">
+        <h1 class="page-title">{{ page.title }}</h1>
+        <ul class="site-navigation">
+          <li><a href="/" class="nav-button">Home</a></li>
+          <li><a href="/page-one" class="nav-button">PageOne</a></li>
+          <li><a href="/page-two" class="nav-button">PageTwo</a></li>
+          <li><a href="/about" class="nav-button">About</a></li>
+        </ul>
       </div>
-      <div class="footer-container pesho-data"></div>
-      <div class="footer-container kamen-data"></div>
-      <div class="footer-container second image">
-        <img src="../images/test-portrait-image.jpg" alt="picture of a person" class="footer-picture">
-
+      <div class="site-content">
+        {{ content }}
+      </div>
+      <div class="site-footer">
+        <div class="footer-container pesho-data">
+          <p>Pesho's contacts</p>
+          <ul>
+            <li>
+              <a href="{{ site.github_url_pesho }}" target="_blank">
+                <i class="fab fa-github"></i> {{ site.github_username_pesho }}
+              </a>
+            </li>
+            <li>
+              <a href="{{ site.facebook_url_pesho }}" target="_blank">
+                <i class="fab fa-facebook"></i>
+                {{ site.facebook_username_pesho }}
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-container kamen-data">
+          <p>Kamen's contacts</p>
+          <ul>
+            <li>
+              <a href="{{ site.github_url_kamen }}" target="_blank">
+                <i class="fab fa-github"></i> {{ site.github_username_kamen }}
+              </a>
+            </li>
+            <li>
+              <a href="{{ site.facebook_url_kamen }}" target="_blank">
+                <i class="fab fa-facebook"></i>
+                {{ site.facebook_username_kamen }}
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-
-</body>
-
+  </body>
 </html>
-
-<!-- <div class="site-wrapper">
-    <header class="site-header">
-      <h1> {{ site.title }}</h1>
-    </header>
-    <main class="site-main">
-      {% if page.title %}
-      <header>
-        <h3>{{page.title}}</h3>
-      </header>
-      {% endif %}
-      {{ content }}
-    </main>
-    <footer class="site-footer">
-      <p>Test paragraph from the website's footer, adding content from the config file here -> <a
-          href="/">{{site.facebook_username}}</a>
-      </p>
-    </footer>
-  </div> -->

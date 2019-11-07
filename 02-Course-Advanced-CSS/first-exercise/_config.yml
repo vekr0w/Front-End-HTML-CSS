@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Vekr0w's website v1.0
+title: Team project v1.0
 email: vekr0w@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -27,9 +27,11 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username_pesho: Peter Grigorov
+facebook_url_pesho: https://www.facebook.com/vekr0w
 github_username_pesho:  vekr0w
 github_url_pesho: https://github.com/vekr0w
 facebook_username_kamen: Kamen Yanakiev
+facebook_url_kamen: https://www.facebook.com/profile.php?id=100010155043105
 github_username_kamen:  kamenyanakiev
 github_url_kamen: https://github.com/kamenyanakiev
 
