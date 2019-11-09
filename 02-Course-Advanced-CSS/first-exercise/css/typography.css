@@ -6,6 +6,10 @@ html {
   color: white;
 }
 
+h1,h2,h3,h4,h5,h6{
+  color: #EDCD11;
+}
+
 a {
   color: white;
   text-decoration: none;
@@ -39,11 +43,24 @@ a {
 .fa-facebook{
   color: #4267B2;
 }
-
-.footer-container > ul{
-  list-style-type: none;
+.fa-linkedin{
+  color: #2867B2;
 }
 
+.footer-ul{
+  list-style-type: none;
+  font-size: 25px;
+}
+/* Home page CSS */
 .source{
   background-color: #B21C1A;
 }
+
+/* Pesho's page CSS */
+.pg-page-main{
+  text-align: left;
+}
+
+  .pg-page-text{
+    background-color: #1D1D1D;
+  }

@@ -1,66 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script
-      src="https://kit.fontawesome.com/597dde3a29.js"
-      crossorigin="anonymous"
-    ></script>
 
-    <link rel="stylesheet" href="../css/main.css" />
-    <title>{{ site.title }}</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <script src="https://kit.fontawesome.com/597dde3a29.js" crossorigin="anonymous"></script>
 
-  <body>
-    <div class="site-wrapper">
-      <div class="site-header">
-        <h1 class="page-title">{{ page.title }}</h1>
-        <ul class="site-navigation">
-          <li><a href="/" class="nav-button">Home</a></li>
-          <li><a href="/page-one" class="nav-button">PageOne</a></li>
-          <li><a href="/page-two" class="nav-button">PageTwo</a></li>
-          <li><a href="/about" class="nav-button">About</a></li>
+  <link rel="stylesheet" href="../css/main.css" />
+  <title>{{ site.title }}</title>
+</head>
+
+<body>
+  <div class="site-wrapper">
+    <div class="site-header">
+      <h1 class="page-title">{{ page.title }}</h1>
+      <ul class="site-navigation">
+        <li><a href="/" class="nav-button">Home</a></li>
+        <li><a href="/page-one" class="nav-button">Pesho's page</a></li>
+        <li><a href="/page-two" class="nav-button">Kamen's page</a></li>
+        <li><a href="/about" class="nav-button">About</a></li>
+      </ul>
+    </div>
+    <div class="site-content">
+      {{ content }}
+    </div>
+    <div class="site-footer">
+      <div class="footer-container pesho-data">
+        <p>Pesho's contacts</p>
+        <ul class="footer-ul">
+          <li>
+            <a href="{{ site.github_url_pesho }}" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="{{ site.facebook_url_pesho }}" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="{{ site.linkedin_url_pesho }}" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="{{ site.softuni_url_pesho }}" target="_blank">
+              <img src="../images/6661899.png" width="40px" height="40px" alt="softuni image">
+            </a>
+          </li>
         </ul>
       </div>
-      <div class="site-content">
-        {{ content }}
-      </div>
-      <div class="site-footer">
-        <div class="footer-container pesho-data">
-          <p>Pesho's contacts</p>
-          <ul>
-            <li>
-              <a href="{{ site.github_url_pesho }}" target="_blank">
-                <i class="fab fa-github"></i> {{ site.github_username_pesho }}
-              </a>
-            </li>
-            <li>
-              <a href="{{ site.facebook_url_pesho }}" target="_blank">
-                <i class="fab fa-facebook"></i>
-                {{ site.facebook_username_pesho }}
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer-container kamen-data">
-          <p>Kamen's contacts</p>
-          <ul>
-            <li>
-              <a href="{{ site.github_url_kamen }}" target="_blank">
-                <i class="fab fa-github"></i> {{ site.github_username_kamen }}
-              </a>
-            </li>
-            <li>
-              <a href="{{ site.facebook_url_kamen }}" target="_blank">
-                <i class="fab fa-facebook"></i>
-                {{ site.facebook_username_kamen }}
-              </a>
-            </li>
-          </ul>
-        </div>
+      <div class="footer-container kamen-data">
+        <p>Kamen's contacts</p>
+        <ul class="footer-ul">
+          <li>
+            <a href="{{ site.github_url_kamen }}" target="_blank">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="{{ site.facebook_url_kamen }}" target="_blank">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="{{ site.linkedin_url_kamen }}" target="_blank">
+              <i class="fab fa-linkedin"></i></i>
+            </a>
+          </li>
+          <li>
+            <a href="{{ site.softuni_url_kamen }}" target="_blank">
+              <img src="../images/6661899.png" width="40px" height="40px" alt="softuni image">
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>

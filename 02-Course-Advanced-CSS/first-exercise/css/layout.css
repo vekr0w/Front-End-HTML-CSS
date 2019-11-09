@@ -4,13 +4,13 @@ html {
 }
 /* Adding colour for the page content */
 
-.site-content{
+.site-content {
   background-color: #242424;
 }
 
 /* Site-wrapper CSS */
 
-.site-wrapper{
+.site-wrapper {
   display: flex;
   flex-flow: column wrap;
   margin: 2rem;
@@ -18,61 +18,94 @@ html {
 
 /* Site header CSS */
 
-.site-header{
+.site-header {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   padding: 2rem;
 }
-.site-navigation{
+.site-navigation {
   display: flex;
   flex-flow: row wrap;
   padding: 2rem;
 }
 
-.nav-button{
+.nav-button {
   margin-left: 1rem;
   padding: 1rem;
-
 }
 
 /* page-content */
-.site-content{
+.site-content {
   padding: 2rem;
 }
 
 /* footer CSS*/
 
-.site-footer{
+.site-footer {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
   padding: 2rem;
 }
 
-.footer-container{
+.footer-container {
   flex: 0 0 50%;
+}
+
+.footer-ul{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.footer-ul > li {
+  margin: 1rem;
 }
 
 /* Home page CSS */
 
-.page-content{
+.page-content {
   display: flex;
   flex-flow: row;
   padding: 2rem;
   justify-content: space-around;
 }
 
-.page-video{
-flex: 0 0 40%;
+.page-video {
+  flex: 0 0 40%;
 }
 
-.page-text{
-flex: 0 0 40%;
-text-align: left;
+.page-text {
+  flex: 0 0 40%;
+  text-align: left;
 }
 
-.page-source{
+.page-source {
   padding: 1rem 0;
+}
+
+/* Pesho's page CSS */
+
+.pg-page-main {
+  padding: 2rem;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.pg-page-text {
+  flex: 0 0 40%;
+  padding: 1rem;
+  border-radius: 5px;
+}
+.pg-page-image {
+  flex: 0 0 40%;
+}
+
+.pg-page-image > img{
+  width: 80%;
+  height: auto;
+  border-radius: 5px;
 }
 
