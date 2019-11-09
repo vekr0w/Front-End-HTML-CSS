@@ -54,5 +54,25 @@ html {
   flex: 0 0 50%;
 }
 
-/* ----------- */
+/* Home page CSS */
+
+.page-content{
+  display: flex;
+  flex-flow: row;
+  padding: 2rem;
+  justify-content: space-around;
+}
+
+.page-video{
+flex: 0 0 40%;
+}
+
+.page-text{
+flex: 0 0 40%;
+text-align: left;
+}
+
+.page-source{
+  padding: 1rem 0;
+}
 
