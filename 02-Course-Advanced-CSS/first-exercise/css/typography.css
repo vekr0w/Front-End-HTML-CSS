@@ -6,8 +6,13 @@ html {
   color: white;
 }
 
-h1,h2,h3,h4,h5,h6{
-  color: #EDCD11;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #edcd11;
 }
 
 a {
@@ -31,36 +36,55 @@ a {
   border-radius: 5px;
 }
 
-
-.site-content{
+.site-content {
   text-align: center;
 }
 
-.site-footer{
+/* Footer CSS */
+
+.site-footer {
   text-align: center;
 }
 
-.fa-facebook{
-  color: #4267B2;
-}
-.fa-linkedin{
-  color: #2867B2;
+.footer-container > p {
+  font-size: 20px;
 }
 
-.footer-ul{
+.fa-facebook {
+  color: #4267b2;
+}
+.fa-linkedin {
+  color: #2867b2;
+}
+
+.footer-ul {
   list-style-type: none;
   font-size: 25px;
 }
 /* Home page CSS */
-.source{
-  background-color: #B21C1A;
+.source {
+  background-color: #b21c1a;
+}
+
+.page-text {
+  height: fit-content;
+  background-color: #1d1d1d;
 }
 
 /* Pesho's page CSS */
-.pg-page-main{
+.pg-page-main {
   text-align: left;
 }
 
-  .pg-page-text{
-    background-color: #1D1D1D;
-  }
+.pg-page-text {
+  background-color: #1d1d1d;
+  height: fit-content;
+}
+
+/* About page content */
+
+.about-text {
+  text-align: left;
+  background-color: #1d1d1d;
+  height: fit-content;
+}
