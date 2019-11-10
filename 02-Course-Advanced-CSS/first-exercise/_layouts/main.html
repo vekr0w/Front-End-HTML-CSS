@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <script src="https://kit.fontawesome.com/597dde3a29.js" crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
   <title>{{ site.title }}</title>
 </head>
 
@@ -16,10 +16,10 @@
     <div class="site-header">
       <h1 class="page-title">{{ page.title }}</h1>
       <ul class="site-navigation">
-        <li><a href="/" class="nav-button">Home</a></li>
-        <li><a href="/page-one" class="nav-button">Pesho's page</a></li>
-        <li><a href="/page-two" class="nav-button">Kamen's page</a></li>
-        <li><a href="/about" class="nav-button">About</a></li>
+        <li><a href="{{site.baseurl}}/" class="nav-button">Home</a></li>
+        <li><a href="{{site.baseurl}}/page-one" class="nav-button">Pesho's page</a></li>
+        <li><a href="{{site.baseurl}}/page-two" class="nav-button">Kamen's page</a></li>
+        <li><a href="{{site.baseurl}}/about" class="nav-button">About</a></li>
       </ul>
     </div>
     <div class="site-content">
@@ -46,7 +46,7 @@
           </li>
           <li>
             <a href="{{ site.softuni_url_pesho }}" target="_blank">
-              <img src="../images/6661899.png" width="40px" height="40px" alt="softuni image">
+              <img src="{{site.baseurl}}/images/6661899.png" width="40px" height="40px" alt="softuni image">
             </a>
           </li>
         </ul>
@@ -71,7 +71,7 @@
           </li>
           <li>
             <a href="{{ site.softuni_url_kamen }}" target="_blank">
-              <img src="../images/6661899.png" width="40px" height="40px" alt="softuni image">
+              <img src="{{site.baseurl}}/images/6661899.png" width="40px" height="40px" alt="softuni image">
             </a>
           </li>
         </ul>
