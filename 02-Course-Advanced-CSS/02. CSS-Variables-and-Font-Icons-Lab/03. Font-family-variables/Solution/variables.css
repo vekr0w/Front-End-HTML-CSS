@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=PT+Serif&display=swap");
+
+:root {
+  --default-font-family: "PT Sans", sans-serif;
+  --heading-font-family: "PT Serif", serif;
+}

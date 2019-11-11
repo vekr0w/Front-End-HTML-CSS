@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: var(--default-font-family);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--heading-font-family);
+}
+
+.site-article{
+  margin: 2rem 15rem;
+  display: flex;
+  flex-flow: column;
+}
+
+.article-header{
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.article-section{
+  margin: 1rem 0;
+}
+
+.section-title{
+  margin: 1rem 0;
+}
+
