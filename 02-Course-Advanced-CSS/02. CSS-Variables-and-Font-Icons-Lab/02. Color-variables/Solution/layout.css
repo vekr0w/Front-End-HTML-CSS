@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  color: var(--default-color);
+}
+
+.info-container {
+  margin: 2rem 15rem;
+  padding: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border: 1px solid var(--yellow-color);
+  border-radius: 5px;
+}
+
+.info-option {
+  flex: 0 0 20%;
+}
+
+.info-text {
+  margin: 1rem 0;
+}
+
+.info-button {
+  border: none;
+  border-radius: 5px;
+  padding: 0.7rem 1.2rem;
+  background-color: var(--yellow-color);
+  color: var(--white-color);
+  font-weight: bold;
+}
+
+.info-button:hover{
+  background-color: var(--default-color);
+  color: var(--yellow-color);
+}
