@@ -1,0 +1,175 @@
+/* Variables */
+:root {
+  --primary-color: #242424;
+  --secondary-color: #1f1812;
+  --heading-font-color: #f0b32f;
+  --primary-font-color: #c6bba4;
+  --timeline-color: #ffffff;
+  --max-width: 1100px;
+}
+
+/* reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Base body styles */
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  background: var(--primary-color);
+  color: var(--primary-font-color);
+  overflow-x: hidden;
+  padding-bottom: 50px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--heading-font-color);
+}
+
+/* header style */
+
+#main-header {
+  padding: 4rem 0;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+/* Timeline CSS */
+
+#timeline ul {
+  background: var(--secondary-color);
+  padding: 50px 0;
+}
+
+/* Creates line */
+#timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 5px;
+  margin: 0 auto;
+  padding-top: 50px;
+  background: var(--timeline-color);
+}
+
+/* Boxes */
+
+#timeline ul li div {
+  position: relative;
+  bottom: 0;
+  width: 400px;
+  padding: 1rem;
+  background: var(--primary-color);
+  transition: all 0.5s ease-in-out;
+  border-radius: 6px;
+  visibility: hidden;
+  opacity: 0;
+
+}
+
+/* Right side */
+
+#timeline ul li:nth-child(odd) div {
+  left: 40px;
+  transform: translate(600px, 0);
+}
+#timeline ul li:nth-child(even) div {
+  left: -434px;
+  transform: translate(-600px, 0);
+
+}
+
+/* Dots */
+#timeline ul li:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 25px;
+  height: 25px;
+  background: inherit;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Arrows base CSS */
+#timeline div:before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+/* Right side arrows */
+#timeline ul li:nth-child(odd) div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent var(--primary-color) transparent transparent;
+}
+
+/* Left side arrows */
+#timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0px 8px 16px;
+  border-color: transparent transparent transparent var(--primary-color);
+}
+
+/* Show Boxes */
+#timeline ul li.show div{
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+#timeline ul li.show:after{
+  background: var(--primary-color);
+}
+
+/* Responsive CSS */
+@media (max-width: 900px) {
+  #timeline ul li div {
+    width: 250px;
+  }
+
+  #timeline ul li:nth-child(even) div {
+    left: -284px;
+  }
+}
+
+@media (max-width: 600px) {
+  #timeline ul li {
+    margin-left: 20px;
+  }
+
+  #timeline ul li div {
+    width: calc(100vw - 90px);
+  }
+
+  #timeline ul li:nth-child(even) div {
+    left: 40px;
+  }
+
+  #timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent var(--primary-color) transparent transparent;
+  }
+}
