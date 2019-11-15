@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+.test-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gradient-container {
+  height: 80%;
+  width: 80%;
+}
+
+.gradient-container:before,
+.gradient-container:after {
+  content: "";
+  position: absolute;
+  top: 1;
+  left: 1;
+  width: 80%;
+  height: 80%;
+}
+
+.gradient-container:before {
+  background: linear-gradient(
+    to bottom,
+    rgba(241, 231, 103, 0.7) 0%,
+    rgba(254, 182, 69, 0.7) 100%
+  );
+
+  opacity: 1;
+}
+
+.gradient-container:after {
+  background: linear-gradient(
+    to bottom,
+    rgba(245, 117, 149, 0.7) 0%,
+    rgba(247, 194, 151, 0.7) 100%
+  );
+  opacity: 0;
+  transition: opacity 1s ease-in 1s;
+}
+.gradient-container:hover:after {
+  opacity: 1;
+}
+
+/* Shorthand property  /name/duration/count/direction*/
+/*  animation: circle-to-square-animation 1.5s infinite alternate; */
