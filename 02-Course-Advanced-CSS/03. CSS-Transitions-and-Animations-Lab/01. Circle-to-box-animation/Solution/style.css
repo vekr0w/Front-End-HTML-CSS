@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border-radius: 50%;
+  animation: circle-to-square-animation 1.5s infinite alternate;
+}
+
+@keyframes circle-to-square-animation {
+  to {
+    background-color: orange;
+    border-radius: 0%;
+    width: 200px;
+    height: 200px;
+  }
+}
