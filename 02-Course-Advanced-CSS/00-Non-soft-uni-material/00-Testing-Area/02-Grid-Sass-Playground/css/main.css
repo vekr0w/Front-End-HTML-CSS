@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  padding: 5rem;
+  background-color: lightgray; }
+
+ul {
+  list-style-type: none; }
+
+.btn {
+  padding: 0.5rem 2rem;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px; }
+
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 2fr);
+  background-color: #f4f4f4;
+  padding: 1rem; }
+  header h1 {
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    grid-row-start: 1;
+    grid-row-end: 3; }
+  header ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-row-start: 1;
+    grid-row-end: 3; }
+  header .btn {
+    background-color: green;
+    color: darkblue; }

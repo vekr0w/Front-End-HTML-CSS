@@ -1,0 +1,52 @@
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 5rem;
+  background-color: $background-light;
+}
+
+// Utility
+ul {
+  list-style-type: none;
+}
+
+.btn {
+  padding: 0.5rem 2rem;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+// Header
+
+header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 2fr);
+  background-color: $light-color;
+  padding: 1rem;
+  h1 {
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  }
+
+  .btn {
+    background-color: $secondary-color;
+    color: $primary-color;
+  }
+}
