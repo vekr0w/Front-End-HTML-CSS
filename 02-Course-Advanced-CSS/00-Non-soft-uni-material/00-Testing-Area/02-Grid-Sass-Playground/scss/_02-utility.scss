@@ -1,0 +1,23 @@
+
+ul {
+  list-style-type: none;
+}
+.btn {
+  text-decoration: none;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+  &:hover {
+    opacity: 0.7;
+  }
+  &-light {
+    @extend .btn;
+    background-color: $light-color;
+    color: $dark-color;
+  }
+  &-dark {
+    background-color: $dark-color;
+    color: $light-color;
+  }
+}

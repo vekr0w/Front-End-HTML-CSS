@@ -1,8 +1,65 @@
+@import "02-variables";
+@import "02-utility";
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
 * {
   margin: 0;
   padding: 0;
 }
 
-body{
-  padding: 5rem;
+/* Test note 123123123 */
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  background-color: $light-color;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas:
+    "site-header site-header site-header"
+    "site-content site-content site-aside"
+    "site-footer site-footer site-footer";
+  grid-gap: 1rem;
+}
+
+.site-header {
+  grid-area: site-header;
+  background-color: $primary-color;
+  color: $light-color;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  h1 {
+    flex: 2;
+    text-align: center;
+  }
+  ul {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+.site-content {
+  grid-area: site-content;
+  background-color: $light-color;
+  color: $dark-color;
+}
+
+.site-aside {
+  grid-area: site-aside;
+  background-color: $light-color;
+  color: $dark-color;
+}
+
+.site-footer {
+  grid-area: site-footer;
+  background-color: $primary-color;
+  color: $light-color;
 }
